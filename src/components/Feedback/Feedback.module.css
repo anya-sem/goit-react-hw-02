@@ -1,0 +1,61 @@
+.wrapper {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 20px;
+  background-color: #ffc2cd;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 360px;
+  margin: 0 auto;
+}
+.subWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.optionsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+.option {
+  color: #fff;
+}
+.value {
+  border-radius: 50%;
+  background-color: #fff;
+  width: 27px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #fc3468;
+  font-weight: 700;
+  font-size: 18px;
+}
+.totalOption {
+  color: #fff;
+}
+.totalValue {
+  border-radius: 50%;
+  background-color: #fff;
+  width: 27px;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #ffc2cd;
+  font-weight: 700;
+  font-size: 18px;
+}
+.positiveWrapper {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.positiveOption {
+  color: #fff;
+}
+.positiveValue {
+  font-weight: 700;
+  font-size: 32px;
+  color: #fc3468;
+}
